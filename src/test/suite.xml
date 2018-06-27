@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://beust.com/testng/testng-1.0.dtd" >
+
+<suite name="EIS Test Suite">
+    <listeners>
+        <listener class-name="testcases.TestBase" />
+    </listeners>
+
+    <test name="Single Test Case">
+        <classes>
+            <class name="testcases.TestPack"></class>
+        </classes>
+    </test>
+
+</suite>
